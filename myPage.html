@@ -40,6 +40,7 @@
 
                         <p class="normalTxt">
 
+                            <img src="images/img.png" width="20%" height="20%" style="border-radius: 50%; margin: 0 25px 5px 0;" align="left">
                             My story,
                             In 2002 i came to Greece and there was too difficult to find accomodation and get a job but AlhamduLILLAH thuma AlhamduLILLAH i got accomodatiom in first week and than after a few days i got a job.<br/>I was living with bangladeshi brothers and this was a good aparconaty that i can speek bangla, so there i hear every where just bangla, this was good for me also becous i want at prectic more and more.<br/>After like two months i got a living place with Pakistani brother.<br/>And than the start like normal,
 
@@ -47,7 +48,7 @@
 
                         <br><br>
 
-                        <button type="button" onclick="changeTextAndStyle()">Click here to change left panel.</button>
+                        <button id="btnOrang" type="button" onclick="changeTextAndStyle()" class="btnStyle" onmouseover="onMouseOverStyleChang()" onmouseleave="onMouseLeaveBackToStyle()">Click here to change left panel.</button>
 
                         <br><br>
 
@@ -103,9 +104,6 @@
 
     </tr>
 
-
-
-
 </table>
 
 <script>
@@ -113,6 +111,14 @@
     function changeTextAndStyle() {
         document.getElementById("lftPnl").innerHTML = "Left panel";
         document.getElementById("lftPnl").className = "lftPnlTxt";
+    }
+
+    function onMouseOverStyleChang() {
+        document.getElementById("btnOrang").className = "btnStyleOnMousOver";
+    }
+
+    function onMouseLeaveBackToStyle() {
+        document.getElementById("btnOrang").className = "btnStyle";
     }
 
 </script>
