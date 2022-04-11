@@ -1,5 +1,5 @@
 table, th, td {
-    border: 2px solid black;
+    border: 0px solid black;
 }
 .tblDesign{
     border-radius: 0.5rem;
@@ -43,6 +43,30 @@ table, th, td {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+
+.mySkillsStyle {
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 4rem;
+    letter-spacing: 1.2px;
+    margin-top: 0rem;
+    color: #054ada;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.skillsHeadigStyle {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.skillsListStyle {
+    font-size: 1rem;
+    letter-spacing: 1.2px;
+    color: #f60;
+    font-family: Helvetica, Arial, sans-serif;
+}
 .normalTxt {
     color: #2b2e31;
     font-size: 18px;
@@ -72,4 +96,16 @@ table, th, td {
     color: #f60;
     border-radius: 15px;
     padding: 6px 23px 6px 23px;
+}
+
+.tableData2 {
+    padding: 3rem 2rem 2rem 2rem;
+}
+
+.tblListStyle {
+    border: solid 1px #d5d4d4;
+    background-color: #fafafa;
+    border-radius: 5px;
+    width: 100%;
+    vertical-align: top;
 }
